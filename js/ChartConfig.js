@@ -4,7 +4,7 @@ var myConfig = {
     "graphset":[
         {
             "type":"bar",
-            "background-color":"#fff",
+            "background-color":"transparent",
             "border-width":"0px",
             "height":"400px",
             "width":"100%",

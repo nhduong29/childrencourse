@@ -486,10 +486,19 @@ body {
 }
 
 /*course*/
+
+@media (max-width: 768px) {
+  .book-img{
+    float:none;
+    width: 100%;
+  }
+}
+
 .media-object{
   width: 200px;
   height: 300px;
 }
+
 
 .note{
   font-size: 13px;
@@ -705,6 +714,13 @@ a.round:hover{
   background: url('../img/bees.png') left center;
   animation: play .1s steps(3) infinite;
   -webkit-animation: play .1s steps(3) infinite;
+}
+
+.bees.bees-end>span {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 @keyframes play {
