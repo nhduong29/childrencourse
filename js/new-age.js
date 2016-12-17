@@ -1,5 +1,7 @@
 (function($) {
     "use strict"; // Start of use strict
+
+    new WOW().init();
     
     //Hide Zingchart link
     $('#my-skill-top').children().last().hide()
